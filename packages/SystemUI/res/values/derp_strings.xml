@@ -4,206 +4,199 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Name of the clock in status bar [CHAR LIMIT=30] -->
-    <string name="clock">Clock</string>
-
-    <!-- Name of the nfc status bar icon. -->
+    <!-- Название часов в строке состояния [CHAR LIMIT=30] -->
+    <string name="clock">Часы</string>
+    
+    <!-- Название значка NFC в строке состояния. -->
     <string name="status_bar_nfc">NFC</string>
-
-    <!-- Custom QS tiles -->
-    <!-- Ambient display QS tile -->
+    
+    <!-- Пользовательские плитки QS -->
+    <!-- Плитка QS для Ambient display -->
     <string name="quick_settings_ambient_display_label">Ambient display</string>
-    <string name="accessibility_quick_settings_ambient_display_off">Ambient display off.</string>
-    <string name="accessibility_quick_settings_ambient_display_on">Ambient display on.</string>
-
-    <!-- AOD QS tile -->
+    <string name="accessibility_quick_settings_ambient_display_off">Ambient display выключен.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Ambient display включен.</string>
+    
+    <!-- Плитка QS для AOD -->
     <string name="quick_settings_aod_label">AOD</string>
-    <string name="quick_settings_aod_secondary_label_on_at_charge">On at charge</string>
-
-    <!-- Caffeine QS tile -->
+    <string name="quick_settings_aod_secondary_label_on_at_charge">Включить при зарядке</string>
+    
+    <!-- Плитка QS для Caffeine -->
     <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine off.</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine on.</string>
-
-    <!-- Heads up QS tile -->
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine выключен.</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine включен.</string>
+    
+    <!-- Плитка QS для Heads up -->
     <string name="quick_settings_heads_up_label">Heads up</string>
-    <string name="accessibility_quick_settings_heads_up_off">Heads up off.</string>
-    <string name="accessibility_quick_settings_heads_up_on">Heads up on.</string>
-
-    <!-- PowerShare QS tile -->
-    <string name="quick_settings_powershare_label">Battery Share</string>
-    <string name="quick_settings_powershare_off_powersave_label">Battery Share off\nBattery saver</string>
-    <string name="quick_settings_powershare_off_low_battery_label">Battery Share off\nBattery too low</string>
-    <string name="quick_settings_powershare_enabled_label">Battery Share is enabled</string>
-
-    <!-- Reader mode QS tile -->
-    <string name="quick_settings_reading_mode">Reading mode</string>
-    <string name="accessibility_quick_settings_reading_mode_on">Reading mode on.</string>
-    <string name="accessibility_quick_settings_reading_mode_off">Reading mode off.</string>
-
-    <!-- Sync QS tile -->
-    <string name="quick_settings_sync_label">Sync</string>
-    <string name="accessibility_quick_settings_sync_off">Sync off.</string>
-    <string name="accessibility_quick_settings_sync_on">Sync on.</string>
-
-    <!-- USB tethering QS tile -->
+    <string name="accessibility_quick_settings_heads_up_off">Heads up выключен.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Heads up включен.</string>
+    
+    <!-- Плитка QS для PowerShare -->
+    <string name="quick_settings_powershare_label">Обмен батареей</string>
+    <string name="quick_settings_powershare_off_powersave_label">Обмен батареей выключен\nРежим энергосбережения</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Обмен батареей выключен\nБатарея слишком низкая</string>
+    <string name="quick_settings_powershare_enabled_label">Обмен батареей включен</string>
+    
+    <!-- Плитка QS для Reading mode -->
+    <string name="quick_settings_reading_mode">Режим чтения</string>
+    <string name="accessibility_quick_settings_reading_mode_on">Режим чтения включен.</string>
+    <string name="accessibility_quick_settings_reading_mode_off">Режим чтения выключен.</string>
+    
+    <!-- Плитка QS для Sync -->
+    <string name="quick_settings_sync_label">Синхронизация</string>
+    <string name="accessibility_quick_settings_sync_off">Синхронизация выключена.</string>
+    <string name="accessibility_quick_settings_sync_on">Синхронизация включена.</string>
+    
+    <!-- Плитка QS для USB tethering -->
     <string name="quick_settings_usb_tether_label">USB tethering</string>
-
-    <!-- Status bar -->
-    <string name="status_bar_icons_title">Status bar icons</string>
-    <string name="misc_statusbar_items_category_title">Misc</string>
-
-    <!-- Advanced restart menu -->
-    <!-- Button to indicate more options -->
-    <string name="global_action_restart_more">Reboot\u2026</string>
-    <!-- Button to restart the device, within the Restart Options dialog -->
-    <string name="global_action_restart_system">System</string>
-    <!-- Button to restart the device into recovery mode, within the Restart Options dialog -->
-    <string name="global_action_restart_recovery">Recovery</string>
-    <!-- Button to restart the device into bootloader mode, within the Restart Options dialog -->
-    <string name="global_action_restart_bootloader">Bootloader</string>
-    <!-- Button to restart the device into download mode, within the Restart Options dialog -->
-    <string name="global_action_restart_download">Download</string>
-    <!-- Button to restart the device into fastboot mode, within the Restart Options dialog -->
+    
+    <!-- Панель состояния -->
+    <string name="status_bar_icons_title">Иконки панели состояния</string>
+    <string name="misc_statusbar_items_category_title">Разное</string>
+    
+    <!-- Расширенное меню перезагрузки -->
+    <!-- Кнопка для указания дополнительных опций -->
+    <string name="global_action_restart_more">Перезагрузка\u2026</string>
+    <!-- Кнопка для перезагрузки устройства, в диалоге "Опции перезагрузки" -->
+    <string name="global_action_restart_system">Система</string>
+    <!-- Кнопка для перезагрузки устройства в режим восстановления, в диалоге "Опции перезагрузки" -->
+    <string name="global_action_restart_recovery">Восстановление</string>
+    <!-- Кнопка для перезагрузки устройства в режим загрузчика, в диалоге "Опции перезагрузки" -->
+    <string name="global_action_restart_bootloader">Загрузчик</string>
+    <!-- Кнопка для перезагрузки устройства в режим загрузки, в диалоге "Опции перезагрузки" -->
+    <string name="global_action_restart_download">Загрузка</string>
+    <!-- Кнопка для перезагрузки устройства в режим fastboot, в диалоге "Опции перезагрузки" -->
     <string name="global_action_restart_fastboot">Fastbootd</string>
-
-    <!-- Restart progress dialog. This is shown if the user chooses to restart the device. -->
-    <string name="global_action_restart_progress">Rebooting\u2026</string>
-    <!-- Restart to recovery mode progress dialog. This is shown if the user chooses to restart the device. -->
-    <string name="global_action_restart_recovery_progress">Rebooting to Recovery\u2026</string>
-    <!-- Restart to bootloader mode progress dialog. This is shown if the user chooses to restart the device. -->
-    <string name="global_action_restart_bootloader_progress">Rebooting to Bootloader\u2026</string>
-    <!-- Restart to download mode progress dialog. This is shown if the user chooses to restart the device. -->
-    <string name="global_action_restart_download_progress">Rebooting to Download\u2026</string>
-    <!-- Restart to fastboot mode progress dialog. This is shown if the user chooses to restart the device. -->
-    <string name="global_action_restart_fastboot_progress">Rebooting to Fastbootd\u2026</string>
-
-    <!-- Label for current user in power menu options dialog -->
-    <string name="global_action_current_user">Current</string>
-    <string name="global_action_users">Users</string>
-    <string name="global_action_panic">Panic trigger</string>
+    
+    <!-- Диалог прогресса перезагрузки. Это отображается, если пользователь выбирает перезагрузку устройства. -->
+    <string name="global_action_restart_progress">Перезагрузка\u2026</string>
+    <!-- Диалог прогресса перезагрузки в режим восстановления. Это отображается, если пользователь выбирает перезагрузку устройства. -->
+    <string name="global_action_restart_recovery_progress">Перезагрузка в режим восстановления\u2026</string>
+    <!-- Диалог прогресса перезагрузки в режим загрузчика. Это отображается, если пользователь выбирает перезагрузку устройства. -->
+    <string name="global_action_restart_bootloader_progress">Перезагрузка в режим загрузчика\u2026</string>
+    <!-- Диалог прогресса перезагрузки в режим загрузки. Это отображается, если пользователь выбирает перезагрузку устройства. -->
+    <string name="global_action_restart_download_progress">Перезагрузка в режим загрузки\u2026</string>
+    <!-- Диалог прогресса перезагрузки в режим fastboot. Это отображается, если пользователь выбирает перезагрузку устройства. -->
+    <string name="global_action_restart_fastboot_progress">Перезагрузка в режим Fastbootd\u2026</string>
+    
+    <!-- Метка для текущего пользователя в диалоге опций меню питания -->
+    <string name="global_action_current_user">Текущий</string>
+    <string name="global_action_users">Пользователи</string>
+    <string name="global_action_panic">Триггер паники</string>
     <string name="global_action_restart_systemui">SystemUI</string>
-
-    <!-- Navigation bar dpad -->
-    <string name="accessibility_dpad_left">Cursor left</string>
-    <string name="accessibility_dpad_right">Cursor right</string>
-
-    <!-- Status bar network traffic monitor strings -->
-    <string name="kilobitspersecond_short" translatable="false">kb/s</string>
-    <string name="megabitspersecond_short" translatable="false">Mb/s</string>
-    <string name="gigabitspersecond_short" translatable="false">Gb/s</string>
-    <string name="kilobytespersecond_short" translatable="false">kB/s</string>
-    <string name="megabytespersecond_short" translatable="false">MB/s</string>
-    <string name="gigabytespersecond_short" translatable="false">GB/s</string>
-
-    <!-- Label for area where tiles can be added to the qs panel -->
-    <string name="drag_or_tap_to_add_tiles">Hold &amp; drag or tap to add tiles</string>
-    <!-- Label for the area where tiles can be dragged in to remove -->
-    <string name="drag_or_tap_to_remove_tiles">Hold &amp; drag or tap to remove tiles</string>
-
-    <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
-    <string name="screenshot_delete_label">Delete</string>
-    <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
-    <string name="screenshot_delete_description">Delete screenshot</string>
-
-    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
-    <string name="screenrecord_delete_label">Delete</string>
-    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
-    <string name="screenrecord_delete_description">Screen recording deleted</string>
-
-    <!-- Screen record -->
-    <string name="screenrecord_stopdot_label">Show stop dot</string>
-    <string name="screenrecord_stopdot_summary">Long press to move it</string>
-    <string name="screenrecord_lowquality_label">Lower quality</string>
-    <string name="screenrecord_lowquality_summary">For smaller file size</string>
-    <string name="screenrecord_longer_timeout_switch_label">Larger file size limit</string>
-    <string name="screenrecord_longer_timeout_switch_summary">Limit recording size to 15 GB</string>
-    <string name="screenrecord_skip_time_label">Skip timer</string>
-    <string name="screenrecord_skip_time_summary">Remove the 3 second wait</string>
-    <string name="screenrecord_hevc_switch_label">HEVC encoding</string>
-    <string name="screenrecord_hevc_switch_summary">Use the more efficient HEVC encoder</string>
-
-    <!-- Name of the roaming status bar icon. -->
-    <string name="status_bar_roaming">Roaming indicator</string>
-
-    <!-- Name of the HD calling status bar icon. -->
-    <string name="status_bar_hd_calling">HD calling (VoLTE/VoNR)</string>
-    <!-- Name of the VoWiFi status bar icon. -->
-    <string name="status_bar_vowifi">Wi-Fi calling (VoWiFi)</string>
-
-    <!-- WiFi standard numbering on statusbar -->
-    <string name="status_bar_wifi_standard">Wi-Fi standard number</string>
-
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Show 4G instead of LTE icon in statusbar</string>
-
-    <!-- DerpFest logo -->
-    <string name="derp_logo_title">DerpFest swag</string>
-    <string name="derp_logo_summary">Let everyone know that you\'re using DerpFest when they see your screen</string>
-
-    <!-- Kill button in notification guts -->
-    <string name="force_stop_dlg_title">Force stop?</string>
-    <string name="force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
-
-    <!-- Data usage info in QS footer -->
-    <string name="usage_data">used today</string>
-    <string name="usage_data_default_suffix">Data</string>
+    
+    <!-- Навигационная панель dpad -->
+    <string name="accessibility_dpad_left">Курсор влево</string>
+    <string name="accessibility_dpad_right">Курсор вправо</string>
+    
+    
+    <!-- Метка для области, где можно добавить плитки на панель QS -->
+    <string name="drag_or_tap_to_add_tiles">Зажмите и перетащите или коснитесь, чтобы добавить плитки</string>
+    <!-- Метка для области, куда можно перетащить плитки для удаления -->
+    <string name="drag_or_tap_to_remove_tiles">Зажмите и перетащите или коснитесь, чтобы удалить плитки</string>
+    
+    <!-- Метка для элемента интерфейса, который позволяет удалить скриншот [CHAR LIMIT=30] -->
+    <string name="screenshot_delete_label">Удалить</string>
+    <!-- Описание содержимого, указывающее, что нажатие на элемент позволяет удалить скриншот [CHAR LIMIT=NONE] -->
+    <string name="screenshot_delete_description">Удалить скриншот</string>
+    
+    <!-- Метка для действия уведомления для удаления файла записи экрана [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">Удалить</string>
+    <!-- Сообщение всплывающей подсказки, отображаемое после успешного удаления записи экрана [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">Запись экрана удалена</string>
+    
+    <!-- Запись экрана -->
+    <string name="screenrecord_stopdot_label">Показать точку остановки</string>
+    <string name="screenrecord_stopdot_summary">Долгое нажатие для перемещения</string>
+    <string name="screenrecord_lowquality_label">Низкое качество</string>
+    <string name="screenrecord_lowquality_summary">Для меньшего размера файла</string>
+    <string name="screenrecord_longer_timeout_switch_label">Больший лимит размера файла</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Ограничить размер записи до 15 ГБ</string>
+    <string name="screenrecord_skip_time_label">Пропустить таймер</string>
+    <string name="screenrecord_skip_time_summary">Убрать 3-секундную задержку</string>
+    <string name="screenrecord_hevc_switch_label">HEVC кодирование</string>
+    <string name="screenrecord_hevc_switch_summary">Использовать более эффективный кодек HEVC</string>
+    
+    <!-- Название значка роуминга в строке состояния. -->
+    <string name="status_bar_roaming">Индикатор роуминга</string>
+    
+    <!-- Название значка HD-вызова в строке состояния. -->
+    <string name="status_bar_hd_calling">HD-вызов (VoLTE/VoNR)</string>
+    <!-- Название значка VoWiFi в строке состояния. -->
+    <string name="status_bar_vowifi">Wi-Fi вызов (VoWiFi)</string>
+    
+    <!-- Номер стандарта Wi-Fi в строке состояния -->
+    <string name="status_bar_wifi_standard">Номер стандарта Wi-Fi</string>
+    
+    <!-- Значок 4G -->
+    <string name="show_fourg_icon_title">Значок 4G</string>
+    <string name="show_fourg_icon_summary">Показывать 4G вместо значка LTE в строке состояния</string>
+    
+    <!-- Логотип DerpFest -->
+    <string name="derp_logo_title">DerpFest стиль</string>
+    <string name="derp_logo_summary">Позвольте всем знать, что вы используете DerpFest, когда они видят ваш экран</string>
+    
+    <!-- Кнопка "Завершить" в уведомлении -->
+    <string name="force_stop_dlg_title">Принудительно завершить?</string>
+    <string name="force_stop_dlg_text">Если вы принудительно завершите работу приложения, оно может работать некорректно.</string>
+    
+    <!-- Информация об использовании данных в нижнем колонтитуле QS -->
+    <string name="usage_data">использовано сегодня</string>
+    <string name="usage_data_default_suffix">Данные</string>
     <string name="usage_wifi_default_suffix">Wi-Fi</string>
-
-    <!-- Text while recognizing face -->
-    <string name="face_unlock_recognizing">Recognizing face...</string>
-
-    <!-- VPN QS tile -->
+    
+    <!-- Текст во время распознавания лица -->
+    <string name="face_unlock_recognizing">Распознавание лица...</string>
+    
+    <!-- Плитка QS для VPN -->
     <string name="quick_settings_vpn_label">VPN</string>
-    <string name="quick_settings_vpn_connect_dialog_title">Connect to\u2026</string>
-    <string name="vpn_credentials_hint">Please enter your credentials for connecting to <xliff:g id="name">%s</xliff:g></string>
-    <string name="vpn_credentials_username">Username</string>
-    <string name="vpn_credentials_password">Password</string>
-    <string name="vpn_credentials_dialog_connect">Connect</string>
-
-    <!-- Sound QS Tile -->
-    <string name="quick_settings_sound_label">Sound</string>
-    <string name="quick_settings_sound_ring">Ring</string>
-    <string name="quick_settings_sound_vibrate">Vibrate</string>
-    <string name="quick_settings_sound_silent">Silent</string>
-
-    <!-- Compass QS Tile -->
-    <string name="quick_settings_compass_label">Compass</string>
+    <string name="quick_settings_vpn_connect_dialog_title">Подключиться к\u2026</string>
+    <string name="vpn_credentials_hint">Пожалуйста, введите ваши данные для подключения к <xliff:g id="name">%s</xliff:g></string>
+    <string name="vpn_credentials_username">Имя пользователя</string>
+    <string name="vpn_credentials_password">Пароль</string>
+    <string name="vpn_credentials_dialog_connect">Подключиться</string>
+    
+    <!-- Плитка QS для Звука -->
+    <string name="quick_settings_sound_label">Звук</string>
+    <string name="quick_settings_sound_ring">Звонок</string>
+    <string name="quick_settings_sound_vibrate">Вибрация</string>
+    <string name="quick_settings_sound_silent">Без звука</string>
+    
+    <!-- Плитка QS для Компаса -->
+    <string name="quick_settings_compass_label">Компас</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
-    <string name="quick_settings_compass_init">Initializing\u2026</string>
-    <string name="quick_settings_compass_N">N</string>
-    <string name="quick_settings_compass_NE">NE</string>
-    <string name="quick_settings_compass_E">E</string>
-    <string name="quick_settings_compass_SE">SE</string>
-    <string name="quick_settings_compass_S">S</string>
-    <string name="quick_settings_compass_SW">SW</string>
-    <string name="quick_settings_compass_W">W</string>
-    <string name="quick_settings_compass_NW">NW</string>
-
-    <!-- DataSwitch Tile -->
-    <string name="qs_data_switch_label">Switch data card</string>
-    <string name="qs_data_switch_toast_0">Currently no SIM card is inserted</string>
-    <string name="qs_data_switch_toast_1">Currently only one SIM card is inserted</string>
+    <string name="quick_settings_compass_init">Инициализация\u2026</string>
+    <string name="quick_settings_compass_N">С</string>
+    <string name="quick_settings_compass_NE">СВ</string>
+    <string name="quick_settings_compass_E">В</string>
+    <string name="quick_settings_compass_SE">ЮВ</string>
+    <string name="quick_settings_compass_S">Ю</string>
+    <string name="quick_settings_compass_SW">ЮЗ</string>
+    <string name="quick_settings_compass_W">З</string>
+    <string name="quick_settings_compass_NW">СЗ</string>
+    
+    <!-- Плитка QS для DataSwitch -->
+    <string name="qs_data_switch_label">Переключить SIM-карту данных</string>
+    <string name="qs_data_switch_toast_0">Вставлена не SIM-карта</string>
+    <string name="qs_data_switch_toast_1">Вставлена только одна SIM-карта</string>
     <string name="qs_data_switch_text_1">SIM 1</string>
     <string name="qs_data_switch_text_2">SIM 2</string>
-    <string name="qs_data_switch_changed_1">Switched data card to SIM 1.</string>
-    <string name="qs_data_switch_changed_2">Switched data card to SIM 2.</string>
-
-    <!-- Screenshot Tile -->
-    <string name="screenshot_long_press">Long press - selected region</string>
-
-    <!-- Language toggle tile -->
-    <string name="quick_settings_locale_label">Language</string>
-    <string name="quick_settings_locale_more_locales_toast">Configure multiple languages first</string>
-
-    <!-- Island notification -->
-    <string name="now_playing_on">Now Playing on %1$s</string>
-    <string name="by_artist">%1$s by %2$s</string>
-
-    <!-- QuickSettings: InternetDialog: Summary for how many devices are connected to the hotspot [CHAR LIMIT=NONE] -->
+    <string name="qs_data_switch_changed_1">Переключена SIM-карта данных на SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Переключена SIM-карта данных на SIM 2.</string>
+    
+    <!-- Плитка QS для Скриншота -->
+    <string name="screenshot_long_press">Долгое нажатие - выбранная область</string>
+    
+    <!-- Плитка QS для переключения языка -->
+    <string name="quick_settings_locale_label">Язык</string>
+    <string name="quick_settings_locale_more_locales_toast">Сначала настройте несколько языков</string>
+    
+    <!-- Island уведомление -->
+    <string name="now_playing_on">Сейчас играет на %1$s</string>
+    <string name="by_artist">%1$s от %2$s</string>
+    
+    <!-- QuickSettings: InternetDialog: Сводка для количества устройств, подключенных к точке доступа [CHAR LIMIT=NONE] -->
     <plurals name="quick_settings_internet_hotspot_summary_num_devices">
-        <item quantity="one">%d device connected</item>
-        <item quantity="other">%d devices connected</item>
+        <item quantity="one">%d устройство подключено</item>
+        <item quantity="other">%d устройств подключено</item>
     </plurals>
 </resources>
